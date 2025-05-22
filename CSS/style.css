@@ -3,6 +3,9 @@
     padding: 0;
     font-family: sans-serif;
 }
+body{
+    height: 600px;
+}
 
 .hero{
     position: relative;
@@ -55,7 +58,24 @@ nav ul li a:hover{
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
 }
-
+#aboutpage{
+    background-color: #002424;
+}
+.about{
+    margin-left: 50%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+.about h1{
+    font-size: 50px;
+    color: #00b9bc;
+    margin-bottom: 20px;   
+}
+.about p{
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-right: 8%;
+}
 span{
     color: #00b9bc;
 }
@@ -85,7 +105,7 @@ span{
     height: 80%;
     position: absolute;
     bottom: 0;
-    right: 100px;
+    right: 20px;
 }
 
 .images img{
