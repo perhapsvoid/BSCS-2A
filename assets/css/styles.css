@@ -209,15 +209,17 @@ img {
 }
 .home__img {
   position: absolute;
+  justify-self: center;
   right: 0;
-  bottom: 0;
-  width: 260px;
+  bottom: -50px; 
+  width: 220px;
 }
 .home__blob {
   fill: var(--first-color);
 }
 .home__blob-img {
   width: 360px;
+  justify-self: center;
 }
 
 /*BUTTONS*/
